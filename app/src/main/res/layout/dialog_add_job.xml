@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81CF84"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/dialog_themcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them cong viec"
+        android:textSize="24sp"
+        android:textColor="#B90205E4"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/dailog_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Moi nhap ghi chu"
+        android:layout_below="@+id/dialog_themcv"
+        android:textColor="#BB0823DA"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/dailog_them"
+        android:layout_margin="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them"
+        android:layout_below="@+id/dailog_edit"
+        android:background="#03A9F4"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/dailog_huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huy"
+        android:background="#03A9F4"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/dailog_them"
+        android:layout_below="@+id/dailog_edit"
+        android:layout_marginTop="40dp"
+
+        />
+
+
+</RelativeLayout>

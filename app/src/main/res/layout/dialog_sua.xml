@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cap nhat ghi chu"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#061FC5"
+        android:id="@+id/dialog_sua_textview"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cap nhat cong viec"
+        android:layout_below="@+id/dialog_sua_textview"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:id="@+id/dialog_sua_edittext"
+        />
+    <Button android:layout_below="@+id/dialog_sua_edittext"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#13C1DF"
+        android:text="Cap nhat"
+        android:id="@+id/dialog_sua_button"
+        android:padding="10dp"
+        android:layout_margin="30dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_sua_edittext"
+        android:layout_toRightOf="@+id/dialog_sua_button"
+        android:layout_margin="30dp"
+        android:text="Huy"
+        android:id="@+id/dialog_sua_button_huy"
+        android:background="#13C1DF"/>
+
+
+</RelativeLayout>
